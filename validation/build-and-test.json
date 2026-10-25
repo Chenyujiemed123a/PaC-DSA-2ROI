@@ -1,0 +1,31 @@
+{
+  "package_version": "2026.10.25-rc.2",
+  "algorithm_version": "2026.10.07-quality.1",
+  "source_sha256": "8509c67f5c59933f3162ca38c3cd01726d080b3bca80bf9e988eb23530a1eabe",
+  "jar_sha256": "9f3d4a258fde698cf82243f63800804eac6f119e0baf0261bd0a098ca7570b35",
+  "dependency_sha256": "2e1a09961dfb41cee66ddc821b2577a41a072566ce45a49bae69267099741e20",
+  "platform": "Darwin 25.6.0 arm64",
+  "javac": "javac 21.0.7",
+  "java": "openjdk version \"21.0.7\" 2025-04-15 LTS\nOpenJDK Runtime Environment Zulu21.42+19-CA (build 21.0.7+6-LTS)\nOpenJDK 64-Bit Server VM Zulu21.42+19-CA (build 21.0.7+6-LTS, mixed mode, sharing)",
+  "bytecode_target": "Java 8 (runtime tested on the recorded JDK only)",
+  "suite": "Public synthetic-only headless tests",
+  "result": "PASS",
+  "test_output": [
+    "PASS ROI selection, ordering, and rejection",
+    "PASS Area ROI geometry validation",
+    "PASS Positive and negative polarity: TTP 17/19, delta +2 frames",
+    "PASS Analysis does not mutate input trace",
+    "PASS Flat signal rejected",
+    "PASS Later synthetic recirculation-like peak excluded by first-pass window",
+    "PASS Local parabolic fit accepted for clean peak and rejected for plateau",
+    "PASS Manual window preserves known peak",
+    "PASS Local fit, window warning, and untested peak stability remain distinct",
+    "PASS Synthetic TIFF + saved ROI ZIP round-trip: TTP 17/19, delta +2 frames = 1/3 s",
+    "ALL 10 TEST GROUPS PASSED (synthetic data only)"
+  ],
+  "limitations": [
+    "No clinical accuracy claim",
+    "No spatial repeatability claim",
+    "No GUI automation or other operating-system runtime validation in this local report"
+  ]
+}

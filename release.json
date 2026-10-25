@@ -1,0 +1,20 @@
+{
+  "project": "PaC DSA 2ROI",
+  "package_version": "2026.10.25-rc.2",
+  "algorithm_version": "2026.10.07-quality.1",
+  "source_sha256": "8509c67f5c59933f3162ca38c3cd01726d080b3bca80bf9e988eb23530a1eabe",
+  "repository": "https://github.com/Chenyujiemed123a/PaC-DSA-2ROI",
+  "planned_repository_name": "PaC-DSA-2ROI",
+  "planned_repository_visibility": "public",
+  "historical_commit": null,
+  "license": "MIT",
+  "copyright_holder": "yujiechen",
+  "copyright_year": 2026,
+  "ownership_confirmation": "Personal ownership and MIT licensing confirmed by the user on 2026-10-25",
+  "status": "Release candidate; public repository created, formal tagged release pending",
+  "imagej_dependency": {
+    "coordinates": "net.imagej:ij:1.54p",
+    "url": "https://repo.maven.apache.org/maven2/net/imagej/ij/1.54p/ij-1.54p.jar",
+    "sha256": "2e1a09961dfb41cee66ddc821b2577a41a072566ce45a49bae69267099741e20"
+  }
+}

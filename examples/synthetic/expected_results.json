@@ -1,0 +1,6 @@
+{
+  "data_origin": "Entirely mathematical; no patient data",
+  "frames": 69, "fps": 6, "TTP1_frame": 17, "TTP2_frame": 19,
+  "delta_frames": 2, "delta_seconds": 0.3333333333333333,
+  "peak_selection_stability": "Not tested"
+}
